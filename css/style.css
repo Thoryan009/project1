@@ -1,0 +1,100 @@
+body {
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.btn-primary{
+    color: white;
+    padding: 18px 30px;
+    background-color: orangered;
+    border-radius: 8px;
+    border: none;
+}
+
+/* nav part start here */
+header {
+    background-color: rgb(255, 248, 243);
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.nav > ul{
+    display: flex;
+    gap: 50px;
+   align-items: center;
+}
+
+.nav > ul > li{
+    list-style: none;
+    
+
+}
+
+.nav > ul > li > a{
+    text-decoration: none;
+    color: black;
+
+}
+
+/* nav part end here */
+/* banner part start here */
+
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+       
+}
+.banner-bg{
+    background-image: url('../images/header_bg.png');
+    background-position: right bottom;
+    background-size:auto;
+    background-repeat: no-repeat;
+   
+ 
+}
+.large{
+    font-size: 80px;
+}
+.banner-img{
+   margin: 0;
+   padding: 0;
+}
+
+
+/* banner part end here */
+/* about part start here */
+.common-title{
+  font-size: 35px;
+  text-align: center;  
+}
+.about-content{
+    background-color: rgb(255, 248, 243);
+    padding: 131px 157px;
+    margin: 130px 0;
+}
+.information{
+    display: flex;
+    gap: 50px;
+}
+.information > div{
+    text-align: center;
+}
+
+/* about part end here */
+/* what to do part start here */
+.skils-section{
+  display: flex;
+}
+.skills{
+    padding: 30px;
+}
+/* what to do part end here */
