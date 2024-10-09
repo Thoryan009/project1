@@ -98,3 +98,20 @@ header {
     padding: 30px;
 }
 /* what to do part end here */
+/* Summary part start here */
+.summary{
+    margin: 130px 0;
+}
+.summary-container{
+    display: flex;
+    gap: 100px;
+}
+.summary-sub-box{
+    padding: 50px 0;
+}
+
+.button{
+    text-align: center;
+}
+
+/* Summary part end here */
